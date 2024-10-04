@@ -18,5 +18,4 @@
 _inclinado_
 ***negritas inclinado***
 
-![Descripcion Imagen]
-(https://perrobeagle.org/wp-content/uploads/2018/03/motivacion.jpg)
+![Descripcion Imagen](https://perrobeagle.org/wp-content/uploads/2018/03/motivacion.jpg)
