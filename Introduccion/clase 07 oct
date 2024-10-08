@@ -1,0 +1,33 @@
+#include <iostream>
+#include <limits>
+#include <string>
+#include <locale>
+#include <algorithm>
+#include <iomanip>
+#include <sstream>  
+
+using namespace std;
+
+int main()
+{
+    // Numero de materias
+
+    int materias;
+    cout << "Dame numero de materias cursadas : ";
+    cin >> materias;
+    cout << endl;
+    cout << "Tus materias son : " << materias << endl;
+
+    // Valor de cuatrimestre cursado
+    int cuatrimestre;
+    cout << "Numero de cuatrimestre en curso : ";
+    cin >> cuatrimestre;
+    cout << endl;
+    cout << "Tu cuatrimestre es : " << cuatrimestre << endl;
+
+    // Nombre de materia 
+    string texto0 = "Materia: fundamentos de programacion!";
+    cout << texto0 << endl;
+
+    return 0;
+}
