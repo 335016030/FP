@@ -1,1 +1,192 @@
+// LUDOTE.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
 
+#include <iostream>
+#include <limits>
+#include <string>
+#include <locale>
+#include <algorithm>
+#include <iomanip>
+#include <sstream>  
+
+using namespace std;
+
+int main()
+{
+    // Numero de materias
+
+    int materias;
+    cout << "Dame numero de materias cursadas : ";
+    cin >> materias;
+    cout << endl;
+    cout << "Tus materias son : " << materias << endl;
+
+    // Valor de cuatrimestre cursado
+    int cuatrimestre;
+    cout << "Numero de cuatrimestre en curso : ";
+    cin >> cuatrimestre;
+    cout << endl;
+    cout << "Tu cuatrimestre es : " << cuatrimestre << endl;
+
+    // Nombre de materia 
+    string texto0 = "Materia: fundamentos de programacion!";
+    cout << texto0 << endl;
+
+    // Numero de matricula
+    string texto1 = "Cuenta : 335016030";
+    cout << texto1 << endl;
+ 
+    // Nombre propio 
+    string texto2 = "Nombre: Ludwin Alfonso";
+    cout << texto2 << endl;
+    
+    // Apellido Paterno
+    string texto3 = "apellido Paterno: Gomez";
+    cout << texto3 << endl;
+
+    // Apellido Materno
+    string texto4 = "apellido Materno: Zaragoza";
+    cout << texto4 << endl;
+
+    // Celular
+    long long celular = 5560523026L;
+        std::cout << "Celular: " << celular << std ::endl; 
+    // Casa
+        long long casa = 29L;
+        std::cout << "casa: " << casa << std::endl;
+    //Correo que mas Uso
+        string texto5 = "correoQueMasUso: ludwingomez31@gmail.com";
+        cout << texto5 << endl;
+    //Correo MyUnitec
+        string texto6 = "correoMyUnitec: ludwin.gomez35@my.unitec.edu.mx";
+        cout << texto6 << endl;
+    // Carrera 
+        string texto7 = "carrera: Ingeniera en Sistemas Computacionales";
+        cout << texto7 << endl;
+        
+        // ejercicio 1
+        int numero1 = 5;
+
+        // ejercicio 2
+        float valor = 3.14;
+
+        // ejercicio 3
+        double valorDouble = 9.81;
+
+        // ejercicio 4
+        char letra = 'A';
+
+        // ejercicio 5
+        bool esVerdadero = true;
+
+        // ejercicio 6
+        int numero = 10;
+
+        // ejercicio 7
+        std::string nombre = "Juan";
+
+        // ejercicio 8
+        const float PI = 3.14; // Usar float en lugar de int para un número decimal
+
+        // ejercicio 9
+        int suma = 5 + 0; // Completar la expresión
+
+        // ejercicio 10
+        int numero;
+
+        // ejercicio 11
+        numero = 10; 
+
+        // ejercicio 12
+        int numero = 10; 
+
+        // ejercicio 13
+        float altura = 1.75f; 
+
+        // ejercicio 14
+        char inicial = 'J'; 
+
+        // ejercicio 15
+        bool esMayor = true; 
+
+        // ejercicio 16
+        std::string apellido = "Juan"; 
+
+        // ejercicio 17
+        int resultado = 5 * 1; 
+
+        // ejercicio 18
+        double area = 3.14 * (radio);
+
+        // ejercicio 18
+        int edad = 25; 
+
+        // ejercicio 19
+        float peso = 70.5f; 
+
+        // ejercicio 20
+        int suma = 10 + 20; 
+
+
+
+
+
+        // flotantes 
+        int a = 10;
+        int b = 20;
+        int c;
+        // flotantes 
+        float x = 15.5;
+        float y = 5.2;
+        float z;
+
+
+
+        //adicion
+        c = a + b;
+        z = x + y;
+
+        cout << "Operacion adicion enteros" << c << endl;
+        cout << "Operacion adicion decimal " << z << endl;
+
+        //Sustraccion
+
+        c = a - b;
+
+        z = x - y;
+
+        cout << "Operacion sustraccion enteros " << c << endl;
+
+        cout << "Operacion sustraccion decimal " << z << endl;
+
+        //Multiplicacion
+        c = a * b;
+        z = x * y;
+        cout << "Operacion Multiplicacion" << c << endl;
+        cout << "Operacion Multiplicacion" << z << endl;
+
+        //Division
+        c = b / a;
+        z = x / y;
+        cout << "Operacion Division" << c << endl;
+        cout << "Operacion Division" << z << endl;
+
+        //Residuo
+        c = a % b;
+        cout << "Operacion Residuo" << c << endl;
+        //operaciones mixtas
+        z = a + x;
+        cout << "Operacion" << z << endl;
+        z = b - y;
+        cout << "Operacion" << z << endl;
+        z = a * b;
+        cout << "Operacion" << z << endl;
+        z = b / y;
+        cout << "Operacion " << z << endl;
+        z = (a + b) * x / y;
+        cout << "Operacion" << z << endl;
+
+
+
+                return 0; 
+}
