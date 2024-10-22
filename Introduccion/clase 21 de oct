@@ -1,0 +1,137 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Ejercicio 1
+
+    int numero;
+    cout << "Ingrese un número: ";
+    cin >> numero;
+    int cuadrado = numero * numero;
+    cout << "El cuadrado de " << numero << " es " << cuadrado << endl;
+
+    // Ejercicio 12
+
+    int Huevos;
+    cout << "Huevos : ";
+    cin >> Huevos;
+    cout << endl;
+    if (Huevos >= 1)
+    {
+        cout << "Puedes crear hot cakes"
+            << endl;
+    }
+    else
+    {
+        cout << "No hay suficientes ingredientes"
+            << endl;
+
+
+    }
+
+    int Mantequilla;
+    cout << "Mantequilla : ";
+    cin >> Mantequilla;
+    cout << endl;
+    if (Mantequilla >= 1)
+        {
+            cout << "Puedes crear hot cakes"
+                << endl;
+        }
+        else
+        {
+            cout << "No hay suficientes ingredientes"
+                << endl;
+
+
+        }
+
+        int Leche;
+        cout << "Leche : ";
+        cin >> Leche;
+        cout << endl;
+        if (Leche >= 1)
+        {
+            cout << "Puedes crear hot cakes"
+                << endl;
+        }
+        else
+        {
+            cout << "No hay suficientes ingredientes"
+                << endl;
+
+
+        }
+        int Harina;
+        cout << "Harina : ";
+        cin >> Harina;
+        cout << endl;
+        if (Harina >= 1)
+        {
+            cout << "Puedes crear hot cakes"
+                << endl;
+        }
+        else
+        {
+            cout << "No hay suficientes ingredientes"
+                << endl;
+
+
+        }
+
+        int Levadura;
+        cout << "Levadura : ";
+        cin >> Levadura;
+        cout << endl;
+        if (Levadura >= 1)
+        {
+            cout << "Puedes crear hot cakes"
+                << endl;
+        }
+        else
+        {
+            cout << "No hay suficientes ingredientes"
+                << endl;
+
+
+        }
+
+        int Azucar;
+        cout << "Azucar : ";
+        cin >> Azucar;
+        cout << endl;
+        if (Azucar >= 1)
+        {
+            cout << "Puedes crear hot cakes"
+                << endl;
+        }
+        else
+        {
+            cout << "No hay suficientes ingredientes"
+                << endl;
+
+
+        }
+
+        int Sal;
+        cout << "Sal : ";
+        cin >> Sal;
+        cout << endl;
+        if (Sal >= 1)
+        {
+            cout << "Puedes crear hot cakes"
+                << endl;
+        }
+        else
+        {
+            cout << "No hay suficientes ingredientes"
+                << endl;
+
+
+        }
+
+        return 0;
+
+    
+}
