@@ -1,0 +1,63 @@
+// LUDOTE.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+// poner solo el nombre completo, es para el promedio de practicas
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// Ejercicio 1.16
+
+	int A, B, C;
+	cout << "Ingrese tres numeros (A, B, C):";
+	cin >> A >> B >> C;
+	if (A >= B && A >= C) {
+		cout << "El numero mas grande es:" << A << endl;
+	}
+	else if (B >= A && B >= C) {
+		cout << "El numero mas grande es:" << B << endl;
+	}
+
+	else {
+		cout << "El numero mas grande es:" << C << endl;
+	}
+
+	// Ejercicio 1.17
+
+	int A, B, C, max, min;
+	cout << "Ingrese tres numeros diferentes (A, B, C): ";
+	cin >> A >> B >> C;
+
+	max = A;
+	if (B > max) max = B;
+	if (C > max) max = C;
+
+	min = A; 
+	if (B < min) min = B;
+	if (C < min) min = C;
+
+	cout << "Maximo: " << max << endl;
+	cout << "Minimo: " << min << endl;
+
+	// Ejercicio 1.18
+
+	int HH, MM, SS;
+	cout << "Ingrese la hora (HH, MM, SS): ";
+	cin >> HH >> MM >> SS;
+
+	SS++;
+	if (SS == 60) {
+		SS = 0;
+		MM++;
+		if (MM == 60) {
+		HH++;
+		if (HH == 24) {
+			HH = 0;
+
+			}
+		}
+	}
+
+	cout << "La hora un segundo mas tarde es: " << HH << ":" << MM << ":" << SS << endl;
+
+}
